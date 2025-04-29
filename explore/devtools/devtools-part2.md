@@ -1,0 +1,2 @@
+1. The bug is that the script is reading the inputs as strings. Therefore instead of adding them numerically, the script is concatenating the strings together, and the result becomes the concatenation of both strings, i.e a variable of type string.
+2. I would convert the inputs num1 and num2 into integers using the parseInt() function in the calculateSum(num1, num2) function.
